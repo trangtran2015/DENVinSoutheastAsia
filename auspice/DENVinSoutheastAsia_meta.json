@@ -1,0 +1,145 @@
+{
+  "annotations": {
+    "DV1_gp1": {
+      "end": 10270,
+      "start": 7573,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "China",
+          "#A18362"
+        ],
+        [
+          "Indonesia",
+          "#4E847C"
+        ],
+        [
+          "Japan",
+          "#62A69C"
+        ],
+        [
+          "Laos",
+          "#81B7AF"
+        ],
+        [
+          "Malaysia",
+          "#8CA049"
+        ],
+        [
+          "Philippines",
+          "#C9E569"
+        ],
+        [
+          "Singapore",
+          "#76A0EC"
+        ],
+        [
+          "Sri Lanka",
+          "#771911"
+        ],
+        [
+          "Taiwan",
+          "#924740"
+        ],
+        [
+          "Thailand",
+          "#E7AD00"
+        ],
+        [
+          "Viet Nam",
+          "#B7D3DE"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "China": {
+        "latitude": 35.8617,
+        "longitude": 104.1954
+      },
+      "Indonesia": {
+        "latitude": -0.7893,
+        "longitude": 113.9213
+      },
+      "Japan": {
+        "latitude": 36.2048,
+        "longitude": 138.2529
+      },
+      "Laos": {
+        "latitude": 19.8563,
+        "longitude": 102.4955
+      },
+      "Malaysia": {
+        "latitude": 4.2105,
+        "longitude": 101.9758
+      },
+      "Philippines": {
+        "latitude": 12.8797,
+        "longitude": 121.774
+      },
+      "Singapore": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "Sri Lanka": {
+        "latitude": 7.8731,
+        "longitude": 80.7718
+      },
+      "Taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
+      },
+      "Thailand": {
+        "latitude": 15.87,
+        "longitude": 100.9925
+      },
+      "Viet Nam": {
+        "latitude": 14.0583,
+        "longitude": 108.2772
+      }
+    }
+  },
+  "maintainer": [
+    "Trang Tran",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "DENVinSoutheastAsia",
+  "updated": "04 Mar 2020",
+  "virus_count": 41
+}
